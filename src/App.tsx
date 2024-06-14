@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import TodoList from './TodoList';
-import TodoForm from './TodoForm';
+import TodoForm from './Components/TodoForm';
+import TodoList from './Components/TodoList';
 
 function App() {
   return (

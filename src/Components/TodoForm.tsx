@@ -2,7 +2,7 @@ import React from 'react'
 import { useForm, SubmitHandler } from 'react-hook-form'
 import { TextField, Button } from '@mui/material'
 import { useMutation, useQueryClient } from '@tanstack/react-query'
-import './TodoForm.css'
+import '../Styles/TodoForm.css'
 import axios from 'axios'
 import { Todo } from './types'
 
